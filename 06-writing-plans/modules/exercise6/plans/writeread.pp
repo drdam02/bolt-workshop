@@ -4,7 +4,7 @@ plan exercise6::writeread (
   String     $message = 'Hello',
 ) {
   run_task(
-    'exercise7::write',
+    'exercise6::write',
     $nodes,
     filename => $filename,
     message  => $message,
