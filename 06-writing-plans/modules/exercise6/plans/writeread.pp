@@ -1,4 +1,4 @@
-plan exercise7::writeread (
+plan exercise6::writeread (
   TargetSpec $nodes,
   String     $filename,
   String     $message = 'Hello',
