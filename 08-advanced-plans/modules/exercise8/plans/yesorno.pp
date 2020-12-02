@@ -1,7 +1,7 @@
 # TargetSpec accepts a comma-separated list of nodes
-plan exercise9::yesorno (TargetSpec $nodes) {
-  # Run the 'exercise9::yesorno' task on the nodes you specify.
-  $results = run_task('exercise9::yesorno', $nodes)
+plan exercise8::yesorno (TargetSpec $nodes) {
+  # Run the 'exercise8::yesorno' task on the nodes you specify.
+  $results = run_task('exercise8::yesorno', $nodes)
   # Puppet uses immutable variables. That means we have to operate on data, in
   # this case a ResultSet containing a list of Results. Those are documented in
   # Bolt's docs, but effectively its a list of result data parsed from JSON
